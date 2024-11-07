@@ -1,62 +1,71 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abakie energie</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <h1>Abakie energie</h1>
-        <nav>
-                <a href="">Arbeiders</a>
-                <a href="">Het milieu</a>
-                <a href="">Eerlijke handel</a>
-                <a href="">Omgeving en de maatschappij</a>
-        </nav>
+        <div class="header-top">
+            <img src="img/logo.png" alt="Abakie energie logo" class="logo">
+            <nav>
+                <a href="#arbeiders">Arbeiders</a>
+                <a href="#milieu">Het Milieu</a>
+                <a href="#handel">Eerlijke Handel</a>
+                <a href="#maatschappij">Omgeving & Maatschappij</a>
+            </nav>
+        </div>
+        <div class="hero">
+            <img src="img/hero.png" alt="Hero Image" class="hero-img">
+            <div class="hero-overlay">
+                <button class="hero-button">Meer informatie</button>
+            </div>
+        </div>
     </header>
 
-    <div class="">
-        <img src="img/hero.png" alt="Hero Image">
-    </div>
+    <main>
+        <section id="arbeiders" class="content-block">
+            <h2>Arbeiders</h2>
+            <p>Denk aan loon, werktijden, opleidingskansen, veiligheid, etc.</p>
+        </section>
 
-    <div class="">
-        <!-- Arbeiders -->
-    </div>
+        <section id="milieu" class="content-block">
+            <h2>Het Milieu</h2>
+            <p>Denk aan gifstoffen, afval, recycling, CO₂-uitstoot, etc.</p>
+        </section>
 
-    <div class="">
-        <!-- Het milieu -->
-    </div>
+        <section id="handel" class="content-block">
+            <h2>Eerlijke Handel</h2>
+            <p>Denk aan inkoop bij boeren in derdewereldlanden.</p>
+        </section>
 
-    <div class="">
-        <!-- Eerlijke handel -->
-    </div>
-
-    <div class="">
-        <!-- Omgeving en de maatschappij -->
-    </div>
-
-    <p>Welcome to the home page.</p>
-    <p><a href="about.php">About</a></p>
+        <section id="maatschappij" class="content-block">
+            <h2>Omgeving en de Maatschappij</h2>
+            <p>Denk aan maatschappelijk verantwoord ondernemen, sponsoring, maatschappelijke projecten, etc.</p>
+        </section>
+    </main>
 
     <footer>
         <div class="footer-container">
             <div class="footer-left">
-                <h3>Abakie energie.</h3>
+                <h3>Abakie energie</h3>
                 <p>Leading the way to a sustainable future through innovative energy solutions.</p>
-                <p><strong>Address:</strong> 123 Green Energy St, Eco City, EC 45678</p>
-                <p><strong>Phone:</strong> (123) 456-7890</p>
+                <p><strong>Adres:</strong> 123 Green Energy St, Eco City, EC 45678</p>
+                <p><strong>Telefoon:</strong> (123) 456-7890</p>
                 <p><strong>Email:</strong> info@AbakieEnergie.com</p>
             </div>
             <div class="footer-right">
-                <h3>Contact Us</h3>
+                <h3>Neem contact op</h3>
                 <form action="submit_form.php" method="POST">
-                    <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
-                    <button type="submit">Send</button>
+                    <input type="email" name="email" placeholder="Jouw email" required>
+                    <textarea name="message" placeholder="Jouw bericht" rows="4" required></textarea>
+                    <button type="submit">Verstuur</button>
                 </form>
             </div>
         </div>
-        <p class="footer-bottom">&copy; 2024 Abakie energie. All Rights Reserved.</p>
+        <p class="footer-bottom">&copy; 2024 Abakie energie. Alle rechten voorbehouden.</p>
     </footer>
 </body>
 </html>

@@ -56,3 +56,17 @@ footer {
     text-align: center;
     padding-top: 20px;
 }
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.milieu {
+    width: 100%;
+    background-color: rgba(120, 81, 169, 0.3);
+}

@@ -33,6 +33,10 @@ header {
     flex-direction: column;
 }
 
+.hero-overlay p {
+    font-size: 1.5em;
+    font-weight: bold;}
+
 .header-top {
     position: absolute;
     top: 20px;
